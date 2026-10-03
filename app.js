@@ -1,5 +1,5 @@
 /**
- * DR. UMA SHESHGIRI — PRIVATE WEALTH & STRATEGIC LAND ADVISORY
+ * RJD REALTORS — PRIVATE WEALTH & STRATEGIC LAND ADVISORY
  * Interactive Engine: Dynamic Advisory Profile Router, Location Intelligence & WhatsApp Desk
  */
 
@@ -46,7 +46,7 @@
     }
 
     launchBtn.addEventListener('click', function () {
-      let message = `Hello Dr. Uma Sheshgiri, I am an agent/broker (${activeProfile}) and would like to partner with your advisory desk for my clients' title audits`;
+      let message = `Hello RJD Realtors, I am an agent/broker (${activeProfile}) and would like to partner with your advisory desk for my clients' title audits`;
       if (enteredLocation) {
         message += ` in ${enteredLocation}`;
       }
