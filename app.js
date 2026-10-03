@@ -106,28 +106,11 @@
     });
   }
 
-  function initNavbarScroll() {
-    const navbar = document.querySelector('.navbar-wrapper');
-    if (!navbar) return;
-    
-    let lastScrollY = window.scrollY;
-    
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > lastScrollY && window.scrollY > 100) {
-        navbar.classList.add('nav-hidden');
-      } else {
-        navbar.classList.remove('nav-hidden');
-      }
-      lastScrollY = window.scrollY;
-    });
-  }
-
   // Initialize all interactive components on DOM ready
   document.addEventListener('DOMContentLoaded', function () {
     initProfileSelector();
     initDeliverablesLinks();
     initSmoothScroll();
-    initNavbarScroll();
   });
 
 })();
