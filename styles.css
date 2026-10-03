@@ -148,8 +148,8 @@ button {
 }
 
 .brand-crest {
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   background: var(--plum-50);
   border: 1px solid var(--plum-100);
@@ -1092,8 +1092,8 @@ button {
 }
 
 .brand-crest-sm {
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: var(--plum-50);
   border: 1px solid var(--plum-100);
