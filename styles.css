@@ -116,23 +116,25 @@ button {
    FLOATING TOP NAVIGATION BAR
    ========================================================================== */
 .navbar-wrapper {
-  position: sticky;
+  position: fixed;
   top: 14px;
   z-index: 100;
   padding: 0 16px;
   width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-wrapper.nav-hidden {
+  transform: translateY(-150%);
 }
 
 .nav-container {
   max-width: 1180px;
   margin: 0 auto;
   padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border: 1px solid var(--border-light);
-  border-radius: 9999px;
-  box-shadow: var(--shadow-nav);
+  background: transparent;
+  border: none;
+  box-shadow: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -245,7 +247,7 @@ button {
    ========================================================================== */
 .hero-section {
   position: relative;
-  padding: 48px 24px 64px;
+  padding: 96px 24px 64px;
   max-width: 1200px;
   margin: 0 auto;
 }
